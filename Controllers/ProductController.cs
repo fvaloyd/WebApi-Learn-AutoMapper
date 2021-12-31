@@ -12,6 +12,7 @@ using Microsoft.Extensions.Logging;
 
 namespace AutoMapperExample.Controllers
 {
+    [ApiController]
     [Route("[controller]")]
     public class ProductController : ControllerBase
     {
